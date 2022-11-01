@@ -41,6 +41,7 @@ for file in files:
         line = f.readline()
     i = i + 1
     print(i)
+    print('change')
     excel.save('D:\研究生\北京化工\excel2json\\excel'+'\\'+ file[0:len(file)-5] + '.xlsx')
 
 
